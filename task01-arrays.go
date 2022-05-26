@@ -6,7 +6,7 @@ func average(input [15]float32) (result float32) {
 		sum = sum + input[i]
 	}
 	count := 0
-	for j := 1; j < len(input); {
+	for j := 1; j < len(input); j++ {
 		count = count + 1
 	}
 	length := float32(count)
